@@ -64,6 +64,4 @@ Welcome to the Task Management System! This application is designed to streamlin
 
 ## Getting Started
 
-**Clone the repository:**
-
-git clone https://github.com/yourusername/task-management-system.git
+https://my-task-manager-mern.netlify.app/log-in
