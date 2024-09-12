@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "author": "Jakub Jan Ciołek",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Codewave",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
