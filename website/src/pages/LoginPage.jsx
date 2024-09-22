@@ -77,6 +77,7 @@ const Login = () => {
                   <span class="absolute bottom-full left-1/2 transform translate-y-11 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 bg-gray-400 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 pointer-events-none">
                     <span class="block text-center">email: user@gmail.com</span>
                     <span class="block text-center">password: 1234</span>
+                    <span class="block text-center">Wait Maximum 60 Seconds For Login In</span>
                   </span>
                 </span>
 
@@ -87,6 +88,7 @@ const Login = () => {
                       email: admin@gmail.com
                     </span>
                     <span class="block text-center">password: 1234</span>
+                     <span class="block text-center">Wait Maximum 60 Seconds For Login In</span>
                   </span>
                 </span>
               </div>
