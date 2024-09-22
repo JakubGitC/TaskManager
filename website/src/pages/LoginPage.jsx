@@ -71,22 +71,27 @@ const Login = () => {
                 })}
                 error={errors.password ? errors.password?.message : ""}
               />
-              <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
-                <span class="relative group text-white text-center cursor-pointer">
+              <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center">
+                <span className="relative group text-white text-center cursor-pointer">
                   User Access Instruction
-                  <span class="absolute bottom-full left-1/2 transform translate-y-11 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 bg-gray-400 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 pointer-events-none">
-                    <span class="block text-center">email: user@gmail.com</span>
-                    <span class="block text-center">password: 1234</span>
+                  <span className="absolute bottom-full left-1/2 transform translate-y-11 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 bg-gray-400 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 pointer-events-none">
+                    <span className="block text-center">
+                      email: user@gmail.com
+                      <br />
+                      WAIT MAXIMUM 60 SECONDS FOR LOGIN IN
+                    </span>
+                    <span className="block text-center">password: 1234</span>
                   </span>
                 </span>
 
-                <span class="relative group text-white text-center cursor-pointer">
+                <span className="relative group text-white text-center cursor-pointer">
                   Admin Access Instruction
-                  <span class="absolute bottom-full left-1/2 transform translate-y-11 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 bg-gray-400 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 pointer-events-none">
-                    <span class="block text-center">
-                      email: admin@gmail.com
+                  <span className="absolute bottom-full left-1/2 transform translate-y-11 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 bg-gray-400 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 pointer-events-none">
+                    <span className="block text-center">
+                      email: admin@gmail.com <br />
+                      WAIT MAXIMUM 60 SECONDS FOR LOGIN IN
                     </span>
-                    <span class="block text-center">password: 1234</span>
+                    <span className="block text-center">password: 1234</span>
                   </span>
                 </span>
               </div>
